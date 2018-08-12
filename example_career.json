@@ -1,0 +1,166 @@
+{
+    "Agent": {
+        "qualificaiton": {
+            "characteristic": "Intelligence",
+            "value": 6,
+            "additionalModifiers":[
+                {
+                    "type":"previousCareers",
+                    "Description":"-1 DM for every previous career.",
+                    "value": -1
+                }
+            ]
+        },
+        "specializations": {
+            "Law Enforcement": {
+                "survival": {
+                    "characteristic": "Endurance",
+                    "value": 6
+                },
+                "advancement": {
+                    "characteristic": "Intelligence",
+                    "value": 6
+                },
+                "skills":[
+                    "Investigate",
+                    "Recon",
+                    "Streetwise",
+                    "Stealth",
+                    "Melee (any)",
+                    "Advocate"
+                ],
+                "ranks":[
+                    {
+                        "title":"Rookie",
+                        "reward": null
+                    },
+                    {
+                        "title":"Corporal",
+                        "reward": {
+                            "type":"skill",
+                            "name": "Streetwise",
+                            "rank": 1
+                        }
+                    },
+                    {
+                        "title":"Sergent",
+                        "reward": null
+                    },
+                    {
+                        "title":"Lieutenant",
+                        "reward": null
+                    },
+                    {
+                        "title":"Detective",
+                        "reward": {
+                            "type":"skill",
+                            "name":"Investigate",
+                            "rank": 1
+                        }
+                    },
+                    {
+                        "title":"Chief",
+                        "reward": {
+                            "type":"skill",
+                            "name":"Admin",
+                            "rank": 1
+                        }
+                    },
+                    {
+                        "title":"Commissioner",
+                        "reward": {
+                            "type":"characteristic",
+                            "name": "Social Standing",
+                            "value": 1
+                        }
+                    }
+                ]
+            },
+            "Intelligence": {
+                "survival": {
+                    "characteristic": "Intelligence",
+                    "value": 7
+                },
+                "advancement": {
+                    "characteristic": "Intelligence",
+                    "value": 5
+                },
+                "skills":[
+                    "Investigate",
+                    "Recon",
+                    "Comms",
+                    "Stealth",
+                    "Persuade",
+                    "Deception"
+                ]
+            },
+            "Corporate": {
+                "survival": {
+                    "characteristic": "Intelligence",
+                    "value": 5
+                },
+                "advancement": {
+                    "characteristic": "Intelligence",
+                    "value": 7
+                },
+                "skills":[
+                    "Investigate",
+                    "Computers",
+                    "Stealth",
+                    "Gun Combat (any)",
+                    "Deception",
+                    "Streetwise"
+                ]
+            }
+        },
+        "skillsAndTraining": {
+            "serviceSkills": [
+                "Streetwise",
+                "Drive (any)",
+                "Investigate",
+                "Computers",
+                "Recon",
+                "Gun Combat (any)"
+            ],
+            "personalDevelopment": [{
+                    "type": "skill",
+                    "name": "Gun Combat (any)"
+                },
+                {
+                    "type": "characteristic",
+                    "name": "Dexterity",
+                    "value": 1
+                },
+                {
+                    "type": "characteristic",
+                    "name": "Endurance",
+                    "value": 1
+                },
+                {
+                    "type": "skill",
+                    "name": "Melee (any)"
+                },
+                {
+                    "type": "characteristic",
+                    "name": "Intelligence",
+                    "value": 1
+                },
+                {
+                    "type": "skill",
+                    "name": "Athletics (any)"
+                }
+            ],
+            "advancedTraining":{
+                "minimumEducation": 8,
+                "skills":[
+                    "Advocate",
+                    "Comms",
+                    "Computers",
+                    "Medic",
+                    "Stealth",
+                    "Remote Operations"
+                ]
+            }
+        }
+    }
+}

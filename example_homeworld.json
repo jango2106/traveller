@@ -1,0 +1,11 @@
+{
+    "name": "Draxis 6",
+    "attributes": {
+        "Agricultural": {
+            "skill": "Animals"
+        },
+        "Asteroid": {
+            "skill": "Zero-G"
+        }
+    }
+}
