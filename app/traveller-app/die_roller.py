@@ -1,4 +1,4 @@
-from die import Die
+from app.die import Die
 import re
 
 class DieRoller:

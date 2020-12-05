@@ -1,6 +1,4 @@
-import skill_model
-
-class SkillList
+class SkillList:
 
     def __init__(self):
         self.skills = dict()
