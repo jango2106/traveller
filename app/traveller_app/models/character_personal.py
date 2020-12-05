@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 
-from traveller_app.constants.modifiers import CHARACTERISTIC_MODIFIERS
+from traveller_app.constants.characteristics import CHARACTERISTIC_MODIFIERS
 
 
 @dataclass
-class Characteristic:
+class Characteristic(object):
     name: str
     level: int = field(default=0)
 
@@ -17,3 +17,9 @@ class Characteristic:
         for group in CHARACTERISTIC_MODIFIERS.keys():
             if self.level == group or self.level in group:
                 return CHARACTERISTIC_MODIFIERS[group]
+
+    @classmethod
+    def from_characteristic(cls, cls_instance):
+        if not cls_instance or type(cls_instance) is not cls:
+            raise TypeError(f"Class {type(cls_instance)} does not match or is None.")
+        return cls(cls_instance.name, cls_instance.level)

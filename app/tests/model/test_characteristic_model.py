@@ -2,7 +2,7 @@ import unittest
 
 from parameterized import parameterized
 
-from traveller_app.constants.modifiers import CHARACTERISTIC_MODIFIERS
+from traveller_app.constants.characteristics import CHARACTERISTIC_MODIFIERS
 from traveller_app.models.character_personal import Characteristic
 
 modifier_parameterized_list = []

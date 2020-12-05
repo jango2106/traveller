@@ -7,3 +7,5 @@ CHARACTERISTIC_MODIFIERS = {
     (12, 13, 14): 2,
     (15, 16, 17, 18): 3
 }
+
+CHARACTERISTIC_NAMES = ["Strength", "Dexterity", "Endurance", "Intelligence", "Education", "Social Standing"]
