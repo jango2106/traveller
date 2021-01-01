@@ -15,4 +15,7 @@
 !app/*
 !app/**/*
 
+# Remove venv files in app
+app/venv
+
 pycache_/
