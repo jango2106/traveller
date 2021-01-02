@@ -15,4 +15,13 @@
 !app/*
 !app/**/*
 
+# Remove venv files in app
+app/venv
+
+# UI rules
+!ui/
+!ui/**
+ui/node_modules
+
+# Remove
 pycache_/
