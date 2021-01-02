@@ -18,9 +18,10 @@
 # Remove venv files in app
 app/venv
 
-# Add UI files
+# UI rules
 !ui/
 !ui/**
+ui/node_modules
 
 # Remove
 pycache_/
