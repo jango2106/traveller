@@ -8,6 +8,8 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
+ENV FLASK_ENV=development
+
 EXPOSE 5000
 
 CMD ["python", "traveller.py"]
