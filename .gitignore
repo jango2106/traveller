@@ -10,16 +10,15 @@
 # License
 !LICENSE
 
-# Allow all python src
+# Python API rules
 !app/
 !app/*
 !app/**/*
-
-# Remove unwanted files in app
 app/venv
 app/__pycache*
 
-# UI rules
+# React UI rules
 !ui/
 !ui/**
 ui/node_modules
+ui/.eslintcache
