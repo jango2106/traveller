@@ -26,3 +26,8 @@ Working directory ./app
 - `docker run -p 5000:5000 traveller_app:local` Runs the dev api and opens up port 5000 on the host.
 
 Use `localhost:5000` to reach the service.
+
+### Specifications
+With the api running, go to `localhost:5000/api/` to get a user friendly swagger ui view.
+
+`localhost:5000/api/specs` will give you the swagger.json file

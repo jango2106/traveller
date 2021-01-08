@@ -16,6 +16,7 @@
 !app/**/*
 app/venv
 app/__pycache*
+app/**/__pycache*
 
 # React UI rules
 !ui/
